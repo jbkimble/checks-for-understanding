@@ -5,20 +5,33 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR. 
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
-  'ActiveRecord is a object relationship manager which allows you to create relational databases with built in functions you' can call on them.
+  `ActiveRecord is a object relationship manager which allows you to create relational databases with built in functions you' can call on them.`
   
 2. What is a migration?
   `A migration is the structure of the database which allows it to be recreated`
   
 3. How does a table relate to a model?
-  A model contains methods 
+  `A model contains methods which can be called on the database`
+  
 4. What kind of methods are `belongs_to`, and `has_many`? (i.e. class or instance) Give an example.
+  `They are class methods, they are called within a class and not on instances of a particular class`
+  
 5. What do they allow you to do?
+  'They allow you to draw relationships between different tables.  For example populating a house table with id's which point to a table which contains each individual room'
+  
 6. What's the difference between agile workflow and waterfall method?
+  `Agile is an itterative process which combines the planning and execution phases and emphasizes completeing small steps, testing, and revision.  While waterfall seperates planning and executing into two distinct phases.`
+  
 7. What is the difference between `#new` and `#create`?
+ `something about new creating an object without actually inserting it into the table?`
+ 
 8. At a basic level, what does cURL allow you to do?
+  `?`
 9. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
+ `many to many`
 10. Define foreign key, primary key, and schema.
+`foriegn key = a key in a table which points to a row on another table.  Primary key = a key which points to a row in a table.  schema = a file that creates your database`
+
 11. Describe the relationship between a foreign key on one table and a primary key on another table.
 12. What are the parts of an HTTP response?
 13. `Rack::Test` allows us to test our controllers in isolation. What are some of the methods it gives us to simulate the request/response cycle?
