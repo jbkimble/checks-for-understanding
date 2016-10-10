@@ -33,10 +33,14 @@ Note: When you're done, submit a PR.
 `foriegn key = a key in a table which points to a row on another table.  Primary key = a key which points to a row in a table.  schema = a file that creates your database`
 
 11. Describe the relationship between a foreign key on one table and a primary key on another table.
+  `the foriegn key in one table points to the primary key of a another table (identifying the row it points to)`
 12. What are the parts of an HTTP response?
+  `the http verb`
+  
 13. `Rack::Test` allows us to test our controllers in isolation. What are some of the methods it gives us to simulate the request/response cycle?
-14. Describe some techniques to make our Sinatra views more DRY. Give an example of when you would use these techniques.
+`rake db:test:prepare`
 
+14. Describe some techniques to make our Sinatra views more DRY. Give an example of when you would use these techniques.
 
 ### Optional Questions
 
