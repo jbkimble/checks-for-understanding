@@ -15,16 +15,20 @@ Note: When you're done, submit a PR.
 `because Sinatra requires us to follow these conventions in order to create relationships and direct the flow of data`
 
 6. What types of variables are accessible in our view templates without explicitly passing them?
+`instance variables`
+
 7. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
   
   ```ruby
   get '/horses' do
-    erb :index
+    @count = 1
+    erb :index, :locals => {:name => "Mr. Ed"}
   end
   ```
 
 8. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed`?
 9. What's the purpose of ERB?
+  `to embed ruby code within HTML`
 10. Why do I need a development AND test database?
 11. What's responsive design?
 12. What is CRUD and why is it important?
