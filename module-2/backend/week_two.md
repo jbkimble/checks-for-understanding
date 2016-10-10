@@ -5,8 +5,13 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR. 
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
+  ActiveRecord is a object relationship manager which allows you to create relational databases with built in functions you can call on them.
+  
 2. What is a migration?
+  A migration is the structure of the database which allows it to be recreated
+  
 3. How does a table relate to a model?
+  A model contains methods 
 4. What kind of methods are `belongs_to`, and `has_many`? (i.e. class or instance) Give an example.
 5. What do they allow you to do?
 6. What's the difference between agile workflow and waterfall method?
