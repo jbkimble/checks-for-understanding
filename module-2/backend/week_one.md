@@ -27,16 +27,30 @@ Note: When you're done, submit a PR.
   ```
 
 8. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed`?
+`see above`
 9. What's the purpose of ERB?
   `to embed ruby code within HTML`
 10. Why do I need a development AND test database?
+`Otherwise when we run our tests they would modify our production database`
 11. What's responsive design?
+`?`
 12. What is CRUD and why is it important?
+`Create, Read, Update, Destroy.  They are the four basic commands when dealing with a database`
 13. What does HTTP stand for? 
+`hyper text transfer protocol`
+
 14. What are the two ways to interpolate Ruby in an ERB view template? What's the difference between these two ways?
+`<%= THIS IS VISIBLE TO THE USER %>  <% THIS IS NOT %>`
 15. What's an ORM?
+`Object relationship manager`
 16. What's the most commonly used ORM?
+`ActiveRecord`
 17. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
+
 18. What's a migration? 
+`the structure of the database which allows us others to recreat the database`
 19. When you create a migration, does it automatically modify your database?
+`no you have to run additional commands from the command line`
 20. How does a model relate to a database?
+`the model is related to an individual table within the database`
+
