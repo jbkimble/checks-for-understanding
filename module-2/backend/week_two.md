@@ -8,13 +8,13 @@ Note: When you're done, submit a PR.
   `ActiveRecord is a object relationship manager which allows you to create relational databases with built in functions you' can call on them.`
   
 2. What is a migration?
-  `A migration is the structure of the database which allows it to be recreated`
+  `A migration is the structure of the database which allows you to add and edit tables and ultimately allows that entire database to be recreated`
   
 3. How does a table relate to a model?
-  `A model contains methods which can be called on the database`
+  `A model communicates with the table in a database, the model contains methods which can be called on the database and allows us to draw relationships between tables`
   
 4. What kind of methods are `belongs_to`, and `has_many`? (i.e. class or instance) Give an example.
-  `They are class methods, they are called within a class and not on instances of a particular class`
+  `They are class methods, they are called on the class and not on instances of the class`
   
 5. What do they allow you to do?
   'They allow you to draw relationships between different tables.  For example populating a house table with id's which point to a table which contains each individual room'
@@ -23,10 +23,10 @@ Note: When you're done, submit a PR.
   `Agile is an itterative process which combines the planning and execution phases and emphasizes completeing small steps, testing, and revision.  While waterfall seperates planning and executing into two distinct phases.`
   
 7. What is the difference between `#new` and `#create`?
- `something about new creating an object without actually inserting it into the table?`
+ `new creates a new active record object representing a row in a table but does now actually save it to the table.  Create combines the .new and .save methods`
  
 8. At a basic level, what does cURL allow you to do?
-  `?`
+  `send data to the internet`
 9. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
  `many to many`
 10. Define foreign key, primary key, and schema.
@@ -35,13 +35,13 @@ Note: When you're done, submit a PR.
 11. Describe the relationship between a foreign key on one table and a primary key on another table.
   `the foriegn key in one table points to the primary key of a another table (identifying the row it points to)`
 12. What are the parts of an HTTP response?
-  `the http verb`
+  `the status of the http resonse, a time/date stamp, information about the server'
   
 13. `Rack::Test` allows us to test our controllers in isolation. What are some of the methods it gives us to simulate the request/response cycle?
-`rake db:test:prepare`
+  ``
 
 14. Describe some techniques to make our Sinatra views more DRY. Give an example of when you would use these techniques.
-
+  'You can use a layout template to apply styling and insert elemnts into all of your pages'
 ### Optional Questions
 
 1. Name your five favorite ActiveRecord methods (i.e. methods your models inherit from ActiveRecord) and describe what they do.
