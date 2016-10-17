@@ -33,7 +33,7 @@ Note: When you're done, submit a PR.
 `foriegn key = a key in a table which points to a row on another table.  Primary key = a key which points to a row in a table.  schema = a file that creates your database`
 
 11. Describe the relationship between a foreign key on one table and a primary key on another table.
-  `the foriegn key in one table points to the primary key of a another table (identifying the row it points to)`
+  `the foriegn key in one table points to the primary key of a another table (identifying the row it points to`
 12. What are the parts of an HTTP response?
   `the status of the http resonse, a time/date stamp, information about the server'
   
